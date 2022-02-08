@@ -17,6 +17,9 @@ body{
 }
 
 #babyContainer{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
     justify-content: center; /* center items vertically, in this case */
     align-items: right;
     height: 80vh;
@@ -48,5 +51,16 @@ body{
     box-sizing: border-box;
 }
 #fname{
-    width: 100%
+    width: 100%;
+    height: 5vh;
+    font-size: 3vh;
+    background-color: rgb(41, 41, 41);
+    color:rgb(241, 241, 241);
+    border-color: rgb(41, 41, 41);
+    border-radius: 3vh;
+}
+.filler{
+    flex-grow: 1;
+    width: 30vh;
+
 }
